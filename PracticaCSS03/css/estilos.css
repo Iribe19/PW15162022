@@ -1,0 +1,202 @@
+body{
+    font-size: 16px; /*1em*/
+    margin: 0px auto;
+    /*Recomendacion del cliente*/
+    max-width: 1078px;
+    min-width: 1078px;
+}
+header nav{
+    margin-top: 50px;
+    background: rgb(255, 78, 2);
+    border-radius: 10px;
+}
+header nav ul li{
+    color: white;
+    display: inline-block;
+    font-size: 1em;
+    margin-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    /*text-decoration: underline;*/
+}
+section{
+    display: inline-block;
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 20%;
+}
+#red1{
+    margin-top: -60px;
+    margin-left: 920px;
+    width: 3%;
+}
+#red2{
+    margin-top: -60px;
+    margin-left: 5px;
+    width: 3%;
+}
+#red3{
+    margin-top: -60px;
+    margin-left: 7px;
+    width: 3%;
+}
+#thema{
+    margin-top: -70px;
+    margin-left: 25px;
+    width: 26%;
+}
+#primerSeccion{
+
+    width: 65%;
+}
+#segundaSeccion{
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    width: 30%;
+    vertical-align: top;
+}
+.fondorojo{
+    margin-top: 50px;
+    background: rgb(255, 78, 2);
+}
+.letrablanca{
+    color: white;
+}
+.nito{
+    font-weight: bold;
+}
+.letragrande{
+    font-size: 1.8em;
+}
+.colorgris{
+    color: gray;
+}
+.cursiva{
+    font-style: italic;
+}
+#secc01art01{
+    border-bottom: 1px solid gray;
+}
+#secc01art01 img{
+    width: 90%;
+    padding-left: 30px;
+}
+#secc01art02{
+    padding-bottom: 50px;
+    border-bottom: 1px solid gray;
+}
+#secc01art02 input[type="submit"]{
+   margin-left: 15px; 
+   background: lightgray;
+   border: 1px solid lightgray;
+   border-radius: 10px;
+   color: white;
+   font-weight: bold;
+   padding: 5px;
+}
+#secc02art01{
+    border: 1px solid gray;
+    border-radius: 5px;    
+    margin-top: 30px;
+}
+#secc02art01 img{
+    margin-top: 10px;
+    padding-left: 3px;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+}
+#secc02art02{
+    border: 1px solid gray;
+    border-radius: 5px;    
+    margin-top: 30px;
+    text-align: center;
+}
+#secc02art02 form input[type="search"]{
+    border-radius: 10px;
+}
+#secc02art02 form input[type="submit"]{
+    background: lightgray;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+}
+#secc02art02 form{
+    /* border: 1px solid gray;
+    border-radius: 20px; */
+    /* text-align: center; */
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #979695;
+    padding: 5px;
+    width: 66%;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+#secc02art03{
+    border: 1px solid black;
+    border-radius: 5px;    
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+#secc02art03 ul li{
+    border-bottom: 1px dashed black;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+#imgpost{
+    float: left;
+    border: 7px solid lightgray;
+}
+#textpost{
+    /* border: 1px solid red; */
+    margin-left: 190px;
+    margin-right: 60px;
+}
+#admin{
+    border: 1px solid lightgray;
+    border-bottom: 2px solid gray;
+    padding-right: 175px;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    vertical-align: bottom;
+    padding-left: 4px;
+}
+#titpub{
+    border: 1px solid rgb(255, 78, 2);
+    background: rgb(255, 78, 2);
+    padding: 5px;
+    padding-inline-end: 121px;
+    padding-left: 125px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+#titbus{
+    border: 1px solid rgb(255, 78, 2);
+    background: rgb(255, 78, 2);
+    padding: 5px;
+    padding-inline-end: 122px;
+    padding-left: 133px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+#titcat{
+    border: 1px solid rgb(255, 78, 2);
+    background: rgb(255, 78, 2);
+    padding: 5px;
+    padding-inline-end: 121px;
+    padding-left: 125px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.sombrablanca{
+    box-shadow: inset 0px 10px 10px rgb(255, 78, 2), inset 0px 13px  5px white;
+}
