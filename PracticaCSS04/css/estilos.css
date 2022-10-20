@@ -10,6 +10,7 @@ body{
 header{
     background: #275e8f;
     text-align: center;
+    padding-top: 8px;
 }
 header img{
     width: 15%;
@@ -48,9 +49,9 @@ nav ul li img {
 }
 #primerSeccion{
     border: 1px solid #efefef;
-    width: 29%;
+    width: 25%;
     background: #efefef;
-    padding-bottom: 27px;
+    padding-bottom: 65.5px;
     position: relative;
     top: -7px;
     right: -2px;
@@ -60,7 +61,7 @@ nav ul li img {
 #segundaSeccion{
     border: 1px solid #ffffff;
     border-radius: 5px;
-    width: 70%;
+    width: 74%;
     margin-left: -5px;
     background: #ffffff;
     position: relative;
@@ -93,7 +94,7 @@ nav ul li img {
 }
 #bar4{
     padding-bottom: 10px;
-} 
+}
 #logop{
     width: 6%;
 }
@@ -110,16 +111,16 @@ nav ul li img {
 }
 #cubosSeccion {
     margin: 0px auto;
-    margin-left: 8px;
+    margin-left: 14px;
 }
 #cubosSeccion article{
     display: inline-block;
     padding: 10px;
-    margin-left: 5px;
     width: 20%;
     margin-top: 25px;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 5px;
+    padding: 12px 13px;
 }
 #titulocubes{
     margin-left: 8px;
@@ -166,7 +167,7 @@ nav ul li img {
 }
 #part01 img{
     margin-left: 21px;
-    width: 130%;
+    width: 136%;
 }
 #usuarioSeccion{
     margin: 0px auto;
@@ -214,7 +215,7 @@ nav ul li img {
     color: white;
 }
 .letragrande{
-    font-size: 1.3em;
+    font-size: 1em;
 }
 .centrado{
     vertical-align: middle;
