@@ -1,14 +1,240 @@
+    /* margin-bottom: 5px; */
 body{
-    font-size: 16px; /*1em*/
-    margin: 0px auto;
-    /*Recomendacion del cliente*/
-    max-width: 1078px;
-    min-width: 1078px;
+        font-size: 16px; /*1em*/
+        margin: 0px auto;
+        /* Recomendacion del cliente */
+        max-width: 1078px;
+        min-width: 1078px;
+        /* background: #275e8f; */
 }
 header{
     background: #275e8f;
-    /* 235d92 */
+    text-align: center;
+}
+header img{
+    width: 15%;
+}
+body section{
+    display: inline-block;
 }
 nav{
+    /* border: 1px solid red; */
+    text-align: right;
     background: #efefef;
+    border-radius: 5px;
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 2px 0px;
+    width: 99%;
+
 }
+nav ul li{
+    display: inline-block;
+    padding-right: 30px;
+    margin-left: -70px;
+    margin-top: -10px;
+}
+nav ul li img {
+    width: 60%;
+
+    /* vertical-align: top; */
+}
+#main{
+    /* border: 1px solid red; */
+    background: #275e8f;
+}
+#notifi{
+    padding-bottom: 4px;
+}
+#primerSeccion{
+    border: 1px solid #efefef;
+    width: 29%;
+    background: #efefef;
+    padding-bottom: 27px;
+    position: relative;
+    top: -7px;
+    right: -2px;
+    margin-left: 3px;
+    vertical-align: top;
+}
+#segundaSeccion{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 70%;
+    margin-left: -5px;
+    background: #ffffff;
+    position: relative;
+    top: -7px;
+}
+#secc01art01{
+    background: #1e4973;
+    width: 87%;
+    vertical-align: top;
+    margin: 0px auto;
+}
+#secc01art01 ul{
+    list-style: none;
+    margin-left: -20px;
+    padding-top: -100px;
+}
+#secc01art01 ul li{
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
+#secc01art02{
+    border: 1px solid lightgray;
+    background: white;
+    width: 87%;
+    margin: 0px auto;
+}
+#secc01art02 img{
+    text-align: left;
+    margin-left: -0px;
+}
+#bar4{
+    padding-bottom: 10px;
+} 
+#logop{
+    width: 6%;
+}
+#logolink{
+    width: 25px;
+    padding-left: 10px;
+}
+#logop{
+    width: 25px;
+    padding-left: 10px;
+}
+#plinks{
+    padding-bottom: 5px;
+}
+#cubosSeccion {
+    margin: 0px auto;
+    margin-left: 8px;
+}
+#cubosSeccion article{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 5px;
+    width: 20%;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 10px;
+}
+#titulocubes{
+    margin-left: 8px;
+    margin-bottom: -20px;
+}
+#cart01{
+    padding-top: 100px;
+    background: #19a920;
+    border-radius: 5px;
+}
+#cart01 img{
+    width: 60%;
+}
+#cart02{
+    width: 20%;
+    background: #1b6da9;
+    border-radius: 5px;
+}
+#cart02 img{
+    width: 54%;
+}
+#cart03{
+    width: 20%;
+    background: #7f1aa7;
+    border-radius: 5px;
+}
+#cart03 img{
+    width: 54%;
+}
+#cart04{
+    width: 20%;
+    background: #a71a19;
+    border-radius: 5px;
+}
+#cart04 img{
+    width: 55%;
+}
+#panelSeccion{
+    margin-top: -15px;
+}
+#titulopanel{
+    margin-left: 20px;
+    margin-bottom: -0px;
+}
+#part01 img{
+    margin-left: 21px;
+    width: 130%;
+}
+#usuarioSeccion{
+    margin: 0px auto;
+    margin-top: -12px;
+    text-align: center;
+    /* margin-left: 50px; */
+}
+#usuarioSeccion article{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 2px;
+    margin-bottom: 5px;
+    padding-top: 6px;
+}
+#usuarioSeccion article input{
+    border: 1px solid #5cbfde;
+    background: #5cbfde;
+    border-radius: 3px;
+    margin: 10px 0px;
+    font-size: 0.7em;
+    padding: 8px 12px;
+}
+#tituloUsuarios{
+    text-align: left;
+    margin-left: 18px;
+    margin-bottom: -20px;
+}
+#usimg1{
+    width: 80%;
+}
+#usimg2{
+    width: 74.5%;
+}
+#usimg3{
+    width: 74.5%;
+}
+#usimg4{
+    width: 75.2%;
+}
+.usuarioart{
+    width: 23%;
+    background: #4a6bae;
+}
+.letrablanca{
+    color: white;
+}
+.letragrande{
+    font-size: 1.3em;
+}
+.centrado{
+    vertical-align: middle;
+}
+.titulo{
+    background: #275e8f;
+    font-size: 0.8em;
+    padding: 5px 0px;
+}
+.barra{
+    width: 99%;
+    margin-left: 20px;
+}
+.txtbar{
+    padding: 6px;
+    color: gray;
+}
+/* .cubo1{
+    width: 65%;
+}
+.cubo2{
+    width: 60%;
+} */
