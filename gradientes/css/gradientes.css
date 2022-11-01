@@ -1,0 +1,39 @@
+article{
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    width: 150px;
+}
+#uno{
+    /* si no soporta gradientes */
+    background: red;
+    /* Opera */
+    background: -o-linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+    /* Safari */
+    background: -webkit-linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+    /* FireFox */
+    background: -moz-linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+    /* Microsoft - Edge */
+    background: -ms-linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+    /* Todos */
+    background: linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+}
+#dos{
+    /* si no soporta gradientes */
+    background: red;
+    /* Opera */
+    background: -o-linear-gradient(to left, red, yellow);
+    /* Safari */
+    background: -webkit-linear-gradient(to left, red, yellow);
+    /* FireFox */
+    background: -moz-linear-gradient(to left, red, yellow);
+    /* Microsoft - Edge */
+    background: -ms-linear-gradient(to left, red, yellow);
+    /* Todos */
+    background: linear-gradient(to left, red, yellow);
+}
+.texto{
+    position: relative;
+    top: 15px;
+}
