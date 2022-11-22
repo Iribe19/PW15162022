@@ -6,10 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["API","NODE","PW","MYSQL"],
+  "keywords": [
+    "API",
+    "NODE",
+    "PW",
+    "MYSQL"
+  ],
   "author": "Luis Jose",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "mysql": "^2.18.1"
   }
